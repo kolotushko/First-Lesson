@@ -17,7 +17,7 @@ humans.append(oleg)
 humans.append(misha)
 humans.append(vlad)
 for human in humans:
-    novus.AddHumanToShop(human)
+    novus.AddHumanToMagasine(human)
 for salesman in novus.Seller:
     novus.ShowInfo(salesman)
 for client in novus.Clients:
