@@ -1,3 +1,4 @@
-from human student import Student
-from worker import Worker
+from  student import Student
+from Worker import Worker
 class Friend(Student, Worker):
+    pass
